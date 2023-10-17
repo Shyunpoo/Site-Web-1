@@ -5,7 +5,7 @@
     /* Remplacez 'chemin-de-votre-police.ttf' par le chemin vers le fichier de police que vous avez téléchargé */
 }
 nav {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif; 
     font-size: 24px; /* Taille du texte */
     color: lightcoral; /* Couleur du texte (rouge clair) */
 }
