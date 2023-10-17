@@ -1,0 +1,62 @@
+/* Sélectionnez le menu de navigation par son ID ou sa classe */
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+    /* Remplacez 'chemin-de-votre-police.ttf' par le chemin vers le fichier de police que vous avez téléchargé */
+}
+nav {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 24px; /* Taille du texte */
+    color: lightcoral; /* Couleur du texte (rouge clair) */
+}
+
+nav a {
+        color: red; /* Change la couleur du texte en rouge */
+        text-decoration: none; /* Supprime le soulignement */
+    }
+
+body {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steam/apps/1274570/ss_d8c7ddd3e7af60f7adbe2d752828bf2cea439f82.1920x1080.jpg');
+    (background-size: cover;
+    background-position: center;)
+}
+
+nav ul {
+    list-style-type: none; /* Supprime le style de la liste à puces */
+}
+
+h1 {
+    font-size: 200px; /* Ajustez la taille en pixels selon vos préférences */
+    font-family: 'Pixelify Sans', sans-serif;
+    color: darkred; /* Couleur du texte (rouge clair) */
+    
+}
+.titredujeu {
+    text-align: center;
+}
+.image1 {
+    border: 5px solid red;
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .image1 {
+        display: block; /* Assure que l'image est traitée comme un bloc */
+        margin: 0 auto; /* Centre l'image horizontalement en utilisant une marge automatique */
+    }
+}
+
+h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    color: red;
+
+}
+.textsousimage1 {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.textsousimage1 p {
+
+}
