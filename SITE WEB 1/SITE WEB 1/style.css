@@ -1,7 +1,11 @@
 /* Sélectionnez le menu de navigation par son ID ou sa classe */
+*{
+    padding: 0;
+    margin: 0;
+}
 @font-face {
     font-family: 'Pixelify Sans';
-    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/PixelifySans-VariableFont_wght.ttf') format('truetype');
     /* Remplacez 'chemin-de-votre-police.ttf' par le chemin vers le fichier de police que vous avez téléchargé */
 }
 nav {
@@ -17,8 +21,8 @@ nav a {
 
 body {
     background-image: url('https://cdn.cloudflare.steamstatic.com/steam/apps/1274570/ss_d8c7ddd3e7af60f7adbe2d752828bf2cea439f82.1920x1080.jpg');
-    (background-size: cover;
-    background-position: center;)
+    background-size: cover;
+    background-position: center;
 }
 
 nav ul {
@@ -39,12 +43,7 @@ h1 {
     display: block;
     margin: 0 auto;
 }
-@media (max-width: 768px) {
-    .image1 {
-        display: block; /* Assure que l'image est traitée comme un bloc */
-        margin: 0 auto; /* Centre l'image horizontalement en utilisant une marge automatique */
-    }
-}
+
 
 h2 {
     font-family: 'Pixelify Sans', sans-serif;
@@ -52,11 +51,18 @@ h2 {
     color: red;
 
 }
-.textsousimage1 {
+.textesousimage1 {
     text-align: center;
-    max-width: 600px;
+    color: red;
     margin: 0 auto;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    max-width: 600px;
 }
-.textsousimage1 p {
 
+.image2 {
+    display: block;
+    margin: 0 auto;
+    width: 1200px; /* Nouvelle largeur de l'image en pixels */
+    6height: 600px6; /* Nouvelle hauteur de l'image en pixels */
 }
